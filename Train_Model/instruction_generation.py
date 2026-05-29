@@ -1,7 +1,7 @@
 import os
 import json
 
-save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\validate_maps"
+save_dir = # r""
 map_num = 400
 
 def generate_instructions(meta):
