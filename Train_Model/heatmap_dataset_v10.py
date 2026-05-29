@@ -5,10 +5,10 @@ import torch.nn as nn
 from transformers import BertTokenizer, BertModel
 from sklearn.decomposition import PCA
 
-train_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\train_maps"
-validate_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\validate_maps"
-mapcnn_model_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_mapcnn_model\final_mapcnn_model.pth"
-save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\heatmap_train_dataset"
+train_maps_save_dir = # r""
+validate_maps_save_dir = # r""
+mapcnn_model_dir = # "final_mapcnn_model.pth"
+save_dir = # r""
 os.makedirs(save_dir, exist_ok=True)
 
 pca = PCA(n_components=512, random_state=0)
