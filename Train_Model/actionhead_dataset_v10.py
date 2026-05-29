@@ -7,12 +7,12 @@ import torch.nn as nn
 from transformers import BertTokenizer, BertModel
 from A_Star_Algorithm import get_step, build_grid_from_meta, A_Star_trajectory
 
-train_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\train_maps"
-validate_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\validate_maps"
-mapcnn_model_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_mapcnn_model\final_mapcnn_model.pth"
-heatmap_model_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_heatmap_model\final_heatmap_model.pth"
-pca_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\text_joint_pca_512.pkl"
-action_dataset_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\action_train_dataset"
+train_maps_save_dir = # r""
+validate_maps_save_dir = # r""
+mapcnn_model_path = # "final_mapcnn_model.pth"
+heatmap_model_path = # "final_heatmap_model.pth"
+pca_path = # "text_joint_pca_512.pkl"
+action_dataset_save_dir = # r""
 os.makedirs(action_dataset_save_dir, exist_ok=True)
 
 ACTIONS = [
