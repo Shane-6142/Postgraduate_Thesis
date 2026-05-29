@@ -4,9 +4,9 @@ import cv2, os, re, json, wandb
 import numpy as np
 from torch.utils.data import Dataset, DataLoader
 
-train_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\train_maps"
-validate_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\validate_maps"
-model_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_mapcnn_model"
+train_maps_save_dir = # r""
+validate_maps_save_dir = # r""
+model_save_dir = # r""
 os.makedirs(model_save_dir, exist_ok=True)
 
 IMAGE_SIZE = 80
