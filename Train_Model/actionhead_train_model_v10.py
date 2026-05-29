@@ -3,8 +3,8 @@ import torch.nn as nn
 import numpy as np
 from torch.utils.data import TensorDataset, DataLoader
 
-dataset_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\action_train_dataset"
-model_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_action_model"
+dataset_save_dir = # r""
+model_save_dir = # r""
 os.makedirs(model_save_dir, exist_ok=True)
 model_path = os.path.join(model_save_dir, "final_action_model.pth")
 
