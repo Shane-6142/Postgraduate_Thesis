@@ -8,11 +8,11 @@ from transformers import BertTokenizer, BertModel
 from draw_key import draw_key
 from agent_class_demo_version import Agent
 
-test_maps_save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\Demo\Test_maps"
-mapcnn_model_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_mapcnn_model\final_mapcnn_model.pth"
-heatmap_model_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_heatmap_model\final_heatmap_model.pth"
-action_model_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\final_action_model\final_action_model.pth"
-pca_path = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\text_joint_pca_512.pkl"
+test_maps_save_dir = # select your own test maps
+mapcnn_model_path = "./final_mapcnn_model.pth"
+heatmap_model_path = "./final_heatmap_model.pth"
+action_model_path = "./final_action_model.pth"
+pca_path = "./text_joint_pca_512.pkl"
 instruction_path = os.path.join(test_maps_save_dir, "all_instructions.json")
 
 MAX_STEPS = 20
