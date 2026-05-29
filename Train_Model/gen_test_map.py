@@ -6,8 +6,7 @@ import json
 from collections import deque
 from draw_key import draw_key
 
-# save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\train_maps"
-save_dir = r"C:\Users\Admin\Desktop\File\OENG1088\VLA\final_model\validate_maps"
+save_dir = # r""
 
 map_num = 400
 
